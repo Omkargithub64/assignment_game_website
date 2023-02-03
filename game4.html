@@ -72,7 +72,7 @@
         left: 50px;
     }
     .text_back{
-        font-size: 4rem;
+        font-size: 4em;
         color: white;
         font-weight: 800;
     }
@@ -93,7 +93,7 @@
     }
     .back_parag{
         width: 600px;
-        margin-top: 3rem;
+        margin-top: 18px;
         color: rgba(255, 255, 255, 0.676);
         font-size: 1.1em;
     }
@@ -107,7 +107,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        
     }
     .video_profile{
         display: flex;
@@ -117,13 +116,12 @@
         background: #1c1c4d;
         border-radius: 19px;
         box-shadow: 0px 0px 20px rgba(0, 0, 10, 0.454);
-        overflow-x: scroll;
     }
     .video{
         margin: 3em;
     }
     .profile{
-        width: 30rem;
+        width: 400px;
         height: 500px;
         background: #6565FF;
         margin: 3em;
@@ -142,16 +140,15 @@
         margin-top: 2.9em;
     }
     .profile_img_container{
-        width: 10rem;
-        height: 10rem;
+        width: 200px;
+        height: 200px;
         overflow: hidden;
         border-radius: 50%;
         border: 0.5rem solid white;
         box-shadow: 0px 0px 30px rgba(0, 0, 10, 0.454);
-        margin: 0px 1.2em 0px 1.2em;
     }
     .profile_text{
-        font-size: 1em;
+        font-size: 1.5rem;
         font-weight: 700;
         color: white;
         margin-top: 1rem;
@@ -161,13 +158,11 @@
     }
     .prog_text{
         color: white;
-        font-size: 1em;
     }
     progress{
         width: 100%;
         background: #FF3C69;
         border-radius: 30px;
-        margin-bottom: 12px;
     }
     progress::-webkit-progress-value{
         -webkit-appearance: none;
@@ -190,7 +185,7 @@
         justify-content: center;
     }
     .img_cont{
-        max-width: 500px;
+        width: 500px;
         height: 300px;
         overflow: hidden;
         margin: 1rem;
@@ -204,7 +199,7 @@
         object-fit: cover;
     }
     .img_cont:hover{
-        max-width: 550px;
+        width: 550px;
     }
     .over_text{
         width: 80%;
@@ -231,11 +226,8 @@
         width: 330px;
         height: 330px;
     }
-    .table{
-        overflow-x: scroll;
-    }
     th,td{
-        border: 4px solid #ea33749e;
+        border: 4px solid white;
         color: white;
         text-align: center;
         
@@ -270,7 +262,7 @@
     button{
         width: 180px;
         height:50px;
-        margin-top: 2em;
+        margin-top: 5em;
         font-size: 1.3em;
         background: #ff0073;
         border: 0px;
@@ -306,7 +298,6 @@
         justify-content: space-around;
         color: white;
         position: relative;
-        overflow-x: scroll;
     }
     li{
         margin: 1em;
@@ -334,181 +325,38 @@
         bottom: 1em;
         left: 1em;
     }
+    .survey{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 </style>
 <body>
     <header>
         <nav class="nav">
-            <div class="logo">
-                <img src="img/logo.jpg" alt="logo" class="logo_img">
-            </div>
+            <a href="index.html">
+                <div class="logo">
+                    <img src="img/logo.jpg" alt="logo" class="logo_img">
+                </div>
+            </a>
             <span class="logo_text">Spider-Man Game</span>
         </nav>
     </header>
-    <section class="back_section">
-        <div class="back_container">
-            <img class="back_img" src="img/2.jpg" alt="" srcset="">
-            <div class="black"></div>
-            <div class="text_container">
-                <span class="text_back">Spider-Man 2 PS5</span>
-                <div class="underline"></div>
-                <div class="back_parag">The next game in the Marvel’s Spider-Man franchise, coming to the PlayStation®5 console.</div>
-                <a href="buy.html"><button>Pre order now</button></a>
-            </div>
-            <div class="logo back_logo">
-                <img src="img/logo.jpg" alt="logo" class="logo_img">
-            </div>
-        </div>
-    </section>
-    <section class="video_profile_section">
-        <div class="video_profile">
-            <div class="video">
-                <iframe width="990rem" height="500rem" src="https://www.youtube.com/embed/qIQ3xNqkVC4"  frameborder="0"  allowfullscreen></iframe>
-            </div>
-            <div class="profile">
-                <div class="provile_text_container">
-                    <div class="profile_img_container"><img src="img/profile.jpg"></div>
-                    <div class="profile_text">bhute2099</div>
-                </div>
-                <div class="progress">
-                    <label class="prog_text" for="prog">Your progress: 33%</label><br><br>
-                    <progress width="100%" value="33" max="100"></progress>
-                    <br><br>
-                    <label class="prog_text" for="prog">Your Alliance Rank:</label><br>
-                    <span class="logo_text">9 (20)</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section class="video_profile_section">
-        <div class="img_container">
-            <h1>Image Gallery</h1>
-            <div class="imgs_container">
-                <div class="img_cont">
-                    <img src="img/1.webp" alt="" srcset="">
-                </div>
-                <div class="img_cont">
-                    <img src="img/back_img.webp" alt="" srcset="">
-                </div>
-                <div class="img_cont">
-                    <img src="img/3.jpg" alt="" srcset="">
-                </div>
-                <div class="img_cont">
-                    <img src="img/4.jpg" alt="" srcset="">
-                </div>
-                <div class="img_cont">
-                    <img src="img/5.webp" alt="" srcset="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <article class="video_profile_section">
-        <div class="over_text">
-            <h1>Overview</h1>
-            <p class="textt">Sony Interactive Entertainment, Insomniac Games, and Marvel have teamed up to create an authentic Spider-Man adventure. This isn’t the Spider-Man you’ve met or ever seen before. This is an experienced Peter Parker who’s more masterful at fighting big crime in Marvel's New York. At the same time, he’s struggling to balance his chaotic personal life and career while the fate of millions of New Yorkers rest upon his shoulders.</p>
-        </div>
-    </article>
-    <br>
-    <br>
-    <section class="video_profile_section">
-        <div class="img_container">
-            <h1>Explore more Spider-Man games:</h1>
-            <div class="imgs_container">
-                <div class="img_cont games">
-                    <a href="game1.html">
-                        <img src="img/g1.jpg" alt="" srcset="">
-                    </a>
-                </div>
-                <div class="img_cont games">
-                    <a href="game2.html">
-                        <img src="img/g2.jpg" alt="" srcset="">
-                    </a>
-                </div>
-                <div class="img_cont games">
-                    <a href="game3.html">
-                        <img src="img/g3.webp" alt="" srcset="">
-                    </a>
-                </div>
-                <div class="img_cont games">
-                    <a href="game4.html">
-                        <img src="img/g4.webp" alt="" srcset="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <br><br>
-    <section class="video_profile_section">
-        <div class="table">
-            <h1>Your Achivements</h1>
-            <table>
-                <tr>
-                    <th>Quests</th>
-                    <th>Matches</th>
-                    <th>Wins</th>
-                    <th>Rank</th>
-                </tr>
-                <tr>
-                    <td>Alliance Quest</td>
-                    <td>30</td>
-                    <td>20</td>
-                    <td>40</td>
-                </tr>
-                <tr>
-                    <td>Multiverse Quest</td>
-                    <td>46</td>
-                    <td>30</td>
-                    <td>29</td>
-                </tr>
-                <tr>
-                    <td>Battelrelm Quest</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Spider-Verse Quest</td>
-                    <td>100</td>
-                    <td>80</td>
-                    <td>30</td>
-                </tr>
-            </table>
-        </div>
-    </section>
+    
     <br><br><br>
     <section class="video_profile_section">
         <div class="survey">
-            <h1>Fill our small survey</h1>
-            <label for="name">First Name: </label><br><br>
-            <input type="text" name="name" class="name"><br><br>
-            <label for="name">Last Name: </label><br><br>
-            <input type="text" name="name" class="name"><br><br>
-            <label for="name">Email: </label><br><br>
-            <input type="email" name="name" class="name"><br><br>
-            <label for="name">Do you like this game? </label><br><br>
-            <div class="rad_cont">
-
-                <div class="radios">
-                    <input type="radio"  name="name" class="radio">
-                    <div class="text">Yes</div>
-                </div>
-                <div class="radios">
-                    <input type="radio"  name="name" class="radio">
-                    <div class="text">No</div>
-                </div>
+            <h1>Spider-Man 1: Remastered </h1>
+            <div class="img_cont games">
+                
+                    <img src="img/g4.webp" alt="" srcset="">
+                
             </div>
-            <a href="submit.html"><button style="margin-top: 20px;">Submit</button></a>
+            
+            <a href="thanks.html"><button style="margin-top: 20px;">Buy</button></a>
             
         </div>
     </section>
