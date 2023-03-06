@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}.black{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.636);
+}
+.back{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.login_form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(249, 9, 69, 0.784);
+    color: white;
+    padding: 2em 3em 2em 3em;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(2, 54, 48, 0.623);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin: 5px 0px 25px 0px;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+.label{
+    margin-bottom: 12px;
+    font-size: 1.3em;
+}
+.input{
+    border-radius: 9px;
+    border: none;
+    padding: 15px;
+    width: 300px;
+    max-width: 300px;
+    font-size: 1em;
+    margin-bottom: 16px;
+    transition: all 0.2s;
+    outline: none;
+}
+.input:focus{
+    background: rgb(23, 10, 47);
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 13px 0px;
+}
+.btnn{
+    background: rgb(68, 23, 142);
+    border: none;
+    outline: none;
+    padding: 12px 12px ;
+    font-size: 1.2em;
+    border-radius: 7px;
+    color: white;
+    transition: all 0.2s;
+}
+.btnn:hover{
+    background: black;
+}
+.or{
+    margin: 12px;
+    text-align: center;
+}
+a{
+    color: rgb(17, 237, 249);
+}
+a:hover{
+    color: rgb(0, 255, 85);
+}
