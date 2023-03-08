@@ -42,6 +42,7 @@
     padding: 2em 3em 2em 3em;
     border-radius: 12px;
     box-shadow: 0px 0px 20px rgba(2, 54, 48, 0.623);
+    width: auto;
     
 }
 .form{
@@ -67,8 +68,6 @@
     border-radius: 9px;
     border: none;
     padding: 15px;
-    width: 300px;
-    max-width: 300px;
     font-size: 1em;
     margin-bottom: 16px;
     transition: all 0.2s;
@@ -111,7 +110,7 @@ hr{
     color: rgba(255, 255, 255, 0.727);
 }
 a{
-    color: rgb(50, 1, 68);
+    color: rgba(50, 1, 68, 0.489);
 }
 a:hover{
     color: rgb(197, 251, 216);
@@ -130,4 +129,22 @@ a:hover{
 }
 .anotherb:hover{
     margin-left: 1000px;
+}
+@media screen and (max-width:770px){
+    .login_form{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 20rem;
+        padding: 25px;
+    }
+    .logo{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+    .logo img{
+        width: 100%;
+    }
 }
